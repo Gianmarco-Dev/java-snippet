@@ -7,6 +7,10 @@ public class Fattoriale {
   Condizione di uscita: y = n!
   */
   public static void main (String[] args){
+    /*istruzioni per esplorazione del grafo di funzione fattoriale
+    generando ad ogni iterazione la coppia rilevante
+    (argomento, valore della funzione) */
+    
     int n = 10;
     int x = 0;
     int y = 1;
